@@ -550,6 +550,18 @@ video {
   }
 }
 
+.visible {
+  visibility: visible;
+}
+
+.collapse {
+  visibility: collapse;
+}
+
+.static {
+  position: static;
+}
+
 .absolute {
   position: absolute;
 }
@@ -634,6 +646,14 @@ video {
   top: 616px;
 }
 
+.left-\[\] {
+  left: ;
+}
+
+.top-\[\] {
+  top: ;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -714,8 +734,16 @@ video {
   display: inline-block;
 }
 
+.table {
+  display: table;
+}
+
 .grid {
   display: grid;
+}
+
+.contents {
+  display: contents;
 }
 
 .hidden {
@@ -736,6 +764,10 @@ video {
 
 .h-\[441px\] {
   height: 441px;
+}
+
+.h-\[\] {
+  height: ;
 }
 
 .min-h-\[132\.1px\] {
@@ -774,6 +806,10 @@ video {
   width: 100%;
 }
 
+.w-\[\] {
+  width: ;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -798,6 +834,18 @@ video {
   max-width: 391px;
 }
 
+.border-collapse {
+  border-collapse: collapse;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.resize {
+  resize: both;
+}
+
 .auto-rows-auto {
   grid-auto-rows: auto;
 }
@@ -820,6 +868,10 @@ video {
 
 .grid-cols-two {
   grid-template-columns: repeat(2, minmax(0, auto));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .grid-rows-five {
@@ -854,6 +906,10 @@ video {
   justify-content: space-between;
 }
 
+.justify-items-end {
+  justify-items: end;
+}
+
 .justify-items-center {
   justify-items: center;
 }
@@ -879,6 +935,10 @@ video {
   border-radius: 9999px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .bg-\[\#37FF9F\] {
   --tw-bg-opacity: 1;
   background-color: rgb(55 255 159 / var(--tw-bg-opacity));
@@ -887,6 +947,10 @@ video {
 .bg-\[\#50A0FF\] {
   --tw-bg-opacity: 1;
   background-color: rgb(80 160 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\] {
+  background-color: ;
 }
 
 .bg-\[url\(\'\/src\/img\/payment_1\.svg\'\)\] {
@@ -1006,8 +1070,25 @@ video {
   color: rgb(51 51 51 / var(--tw-text-opacity));
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
+.outline {
+  outline-style: solid;
+}
+
 .blur-\[183\.592px\] {
   --tw-blur: blur(183.592px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.blur {
+  --tw-blur: blur(8px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
