@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    @apply max-w-[1170px] px-[30px]
+}
+
+.container__grid {
+    @apply grid justify-center items-center;
+}
+
+@layer base {
+    .font_outline {
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: transparent;
+        -webkit-text-stroke: 1px #333333;
+    }
+}
+
+.header {
+    @apply container__grid w-full grid-rows-1 grid-cols-1 md:grid-cols-2;
+}
+
+.header__title {
+    @apply font-bold uppercase text-center text-[32px] leading-[40px] sm:text-[80px] sm:leading-[120px] md:text-left;
+}
+
+.header__text {
+    @apply font-normal text-[14px] leading-[20px] text-[#777586] text-right max-w-[343px];
+}
+
+.header__text__container {
+    @apply w-full hidden md:grid md:justify-end;
+}
+
+.sub__titles {
+    @apply font-semibold text-[24px] leading-[24px];
+}
+
+.payment__image {
+    @apply relative bg-no-repeat bg-contain w-[110px] h-[220px] sm:w-[236px] sm:h-[487px] md:w-[200px] md:h-[400px] lg:w-[236px] lg:h-[487px];
+}
