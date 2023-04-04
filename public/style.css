@@ -889,20 +889,20 @@ video {
   background-color: rgb(80 160 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'src\/img\/payment_1\.svg\'\)\] {
-  background-image: url('src/img/payment_1.svg');
+.bg-\[url\(\'\/src\/img\/payment_1\.svg\'\)\] {
+  background-image: url('/src/img/payment_1.svg');
 }
 
-.bg-\[url\(\'src\/img\/payment_2\.svg\'\)\] {
-  background-image: url('src/img/payment_2.svg');
+.bg-\[url\(\'\/src\/img\/payment_2\.svg\'\)\] {
+  background-image: url('/src/img/payment_2.svg');
 }
 
-.bg-\[url\(\'src\/img\/payment_3\.svg\'\)\] {
-  background-image: url('src/img/payment_3.svg');
+.bg-\[url\(\'\/src\/img\/payment_3\.svg\'\)\] {
+  background-image: url('/src/img/payment_3.svg');
 }
 
-.bg-\[url\(\'src\/img\/payment_4\.svg\'\)\] {
-  background-image: url('src/img/payment_4.svg');
+.bg-\[url\(\'\/src\/img\/payment_4\.svg\'\)\] {
+  background-image: url('/src/img/payment_4.svg');
 }
 
 .text-center {
